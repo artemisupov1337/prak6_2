@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Логічна операція АБО-НЕ (NOR)</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .btn {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #e0e0e0;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Логічна операція АБО-НЕ (NOR)</h2>
+    <div>
+        <button class="btn" id="btn-00">A = 0, B = 0</button>
+        <button class="btn" id="btn-01">A = 0, B = 1</button>
+        <button class="btn" id="btn-10">A = 1, B = 0</button>
+        <button class="btn" id="btn-11">A = 1, B = 1</button>
+    </div>
+    <div class="result" id="result">Результат: </div>
+    <script src="/lab6-2/script.js"></script>
+</body>
+</html>
